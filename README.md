@@ -1,6 +1,5 @@
 # top-100-coin-tracker
 
----
 
 A script that builds a dataset containing the following metrics for the top 100 crypto-currencies sorted by market capitalization:
 
