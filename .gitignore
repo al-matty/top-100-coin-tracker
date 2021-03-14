@@ -1,3 +1,9 @@
+# My own additions
+job.sh
+stderr.log
+logging.txt
+daily_top_100.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
