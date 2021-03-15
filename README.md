@@ -46,4 +46,6 @@ conda activate myenv
 pip3 install -r requirements.txt
 ```
 
+## License
 
+This project is licensed under the [MIT license](https://github.com/al-matty/top-100-coin-tracker/blob/main/LICENSE) - see the [LICENSE](https://github.com/al-matty/top-100-coin-tracker/blob/main/LICENSE) file for details.
