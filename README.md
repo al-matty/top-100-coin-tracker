@@ -1,4 +1,4 @@
-# top-100-coin-tracker
+# Top 100 Coin Tracker
 
 
 A script that builds a dataset containing the following metrics for the top 100 crypto-currencies sorted by market capitalization:
@@ -28,5 +28,22 @@ This is what the csv file will look like:
 ![Preview](preview.png)
 
 
+## Requirements & Installation
+
+The script runs on `python 3` and uses the packages listed in `requirements.txt`. 
+
+The best practice would be to install a virtual environment and install the
+requirements afterwards using `pip`:
+```
+pip3 install -r requirements.txt
+```
+If you're using `conda`, you can create a virtual environment and install the
+requirements using this code:
+
+```
+conda create -n myenv python=3.6
+conda activate myenv
+pip3 install -r requirements.txt
+```
 
 
