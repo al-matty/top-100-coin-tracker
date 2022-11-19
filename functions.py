@@ -192,8 +192,8 @@ def metricsFromRow(row, BTCprice, logfile=None):
         valDict['mcBTC'] = valDict['mcUSD'] / BTCprice
 
     # Possibility: Metric can't be scraped from website
-    except IndexError:
-        message = f"{funcName}(): Couldn't scrape all metrics for {symbol}. Maybe the website changed?"
+    except:
+        message = f"{funcName}(): Couldn't scrape all metrics for {symbol}. Missing value or website changed?"
         print(message)
 
         # Option: Write to logfile
